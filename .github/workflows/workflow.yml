@@ -1,0 +1,14 @@
+name: My GitHub Action
+
+on: [push]
+
+jobs:
+  test_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: 24f3004165@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
+
