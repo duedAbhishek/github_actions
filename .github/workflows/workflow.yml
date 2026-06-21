@@ -18,4 +18,5 @@ jobs:
         run: python3 main.py
 
       - name: 24f3004165@ds.study.iitm.ac.in
-        run: echo "GitHub Action Step with Email Name"
+        run: echo "Hello, world!"
+
